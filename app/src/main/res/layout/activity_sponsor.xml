@@ -130,7 +130,26 @@
                 android:textSize="13sp"
                 android:textColor="?attr/colorOnSurface"
                 android:gravity="center"
-                android:alpha="0.7" />
+                android:alpha="0.7"
+                android:layout_marginBottom="24dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/colorOnSurface"
+                android:alpha="0.15"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="联系方式\n\nQQ：1352183717\n微信：liu1352183717\n邮箱：1352183717@qq.com"
+                android:textSize="14sp"
+                android:textColor="?attr/colorOnSurface"
+                android:gravity="center"
+                android:autoLink="email"
+                android:textIsSelectable="true"
+                android:alpha="0.8" />
 
         </LinearLayout>
     </ScrollView>

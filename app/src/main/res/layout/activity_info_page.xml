@@ -30,6 +30,7 @@
             android:textSize="15sp"
             android:lineSpacingExtra="4dp"
             android:textColor="?attr/colorOnSurface"
-            android:textIsSelectable="true" />
+            android:textIsSelectable="true"
+            android:autoLink="all" />
     </ScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
