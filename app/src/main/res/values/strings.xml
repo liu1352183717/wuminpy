@@ -104,7 +104,7 @@ WuminPy 是一款在 Android 设备上运行 Python 脚本的工具应用，支�
     <string name="opensource_title">开源声明</string>
     <string name="opensource_content">WuminPy 部分代码已开源，遵循 MIT 许可证。\n
 \n
-开源地址：待补充\n
+开源地址：https://github.com/liu1352183717/wuminpy\n
 \n
 开源范围说明：\n
 本应用的部分模块已开源，包括但不限于：\n
