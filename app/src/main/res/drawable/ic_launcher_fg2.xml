@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ═══ W: 左 V 形 ═══ -->
+    <!-- 左下→上→右下 的平行四边形 -->
+    <path
+        android:fillColor="#CC26A69A"
+        android:pathData="M24,36 L33,36 L44,72 L34,72 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#1AFFFFFF" />
+
+    <!-- 中峰三角 -->
+    <path
+        android:fillColor="#FF26A69A"
+        android:pathData="M33,36 L45,36 L39,56 Z" />
+
+    <!-- W: 右 V 形 -->
+    <path
+        android:fillColor="#CC26A69A"
+        android:pathData="M45,36 L57,36 L68,72 L56,72 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#1AFFFFFF" />
+
+    <!-- ═══ P: 竖块 ═══ -->
+    <path
+        android:fillColor="#FF1ABC9C"
+        android:pathData="M74,38 L80,38 L80,74 L74,74 Z" />
+
+    <!-- P: 半圆环填充 -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M80,42 A12,12 0 1,1 80,66"
+        android:strokeWidth="7"
+        android:strokeColor="#FF1ABC9C"
+        android:strokeLineCap="round" />
+
+    <!-- ═══ 底部强调线 ═══ -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M26,80 L82,80"
+        android:strokeWidth="1.5"
+        android:strokeColor="#4D26A69A"
+        android:strokeLineCap="round" />
+
+    <!-- 点亮小方点 -->
+    <path
+        android:fillColor="#FF80CBC4"
+        android:pathData="M42,32 L46,32 L46,36 L42,36 Z" />
+</vector>

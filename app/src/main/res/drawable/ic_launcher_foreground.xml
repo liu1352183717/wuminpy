@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Python 蓝色下划线 -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M32,78 L76,78"
+        android:strokeWidth="4"
+        android:strokeColor="#FF3776AB"
+        android:strokeLineCap="round" />
+
+    <!-- W 字母主体 -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M30,42 L44,70 L54,52 L64,70 L78,42"
+        android:strokeWidth="9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Python 黄色圆点 (Py 的点) -->
+    <path
+        android:fillColor="#FFFFD43B"
+        android:pathData="M77,38 A5,5 0 1,0 87,38 A5,5 0 1,0 77,38 Z" />
+</vector>

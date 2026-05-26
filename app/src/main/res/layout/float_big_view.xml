@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:layout_margin="0dp"
+    tools:ignore="ResourceName">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/float_more"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher_foreground"
+        android:background="@drawable/circle_bluegray" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/float_iv1"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_settings"
+        android:background="@drawable/circle_blue" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/float_iv2"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_ai_assistant"
+        android:background="@drawable/circle_orange" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/float_iv3"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_accessibilit_node"
+        android:background="@drawable/circle_green" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/float_iv4"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_terminal_bar"
+        android:background="@drawable/circle_purple" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/float_iv5"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_bullet"
+        android:background="@drawable/circle_red" />
+</FrameLayout>

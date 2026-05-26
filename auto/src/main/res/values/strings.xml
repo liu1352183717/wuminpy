@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">auto</string>
+    <string name="accessibility_description">WuminPy 自动化服务</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingDefaultResource,ResourceName">
+    <!-- 基础颜色（夜间模式仍可用，但会被主题覆盖） -->
+    <color name="purple_200">#EADDFF</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="selected_item_bg">#4D2196F3</color>
+    <color name="folder_icon_color">#B39DDB</color>   <!-- 柔和紫色 -->
+    <color name="file_icon_color">#B0BEC5</color>    <!-- 柔和灰色 -->
+
+    <!-- Material 3 柔和夜间主题 -->
+    <color name="seed">#A391C0</color>
+    <color name="md_theme_dark_primary">#A391C0</color>
+    <color name="md_theme_dark_onPrimary">#2C1E3F</color>
+    <color name="md_theme_dark_primaryContainer">#3D2A5A</color>
+    <color name="md_theme_dark_onPrimaryContainer">#EADDFF</color>
+    <color name="md_theme_dark_secondary">#B9AECE</color>
+    <color name="md_theme_dark_onSecondary">#2C1F3F</color>
+    <color name="md_theme_dark_secondaryContainer">#4A3F5F</color>
+    <color name="md_theme_dark_onSecondaryContainer">#F2EDF8</color>
+    <color name="md_theme_dark_tertiary">#8ABF8E</color>
+    <color name="md_theme_dark_onTertiary">#1F3A22</color>
+    <color name="md_theme_dark_tertiaryContainer">#3A5C3D</color>
+    <color name="md_theme_dark_onTertiaryContainer">#DCF5DC</color>
+    <color name="md_theme_dark_error">#CF8F8F</color>
+    <color name="md_theme_dark_onError">#3F2A2A</color>
+    <color name="md_theme_dark_errorContainer">#5E3F3F</color>
+    <color name="md_theme_dark_onErrorContainer">#FFDAD6</color>
+    <color name="md_theme_dark_background">#121212</color>           <!-- 深灰背景 -->
+    <color name="md_theme_dark_onBackground">#E6E1E6</color>         <!-- 暖灰文字 -->
+    <color name="md_theme_dark_surface">#1E1C1A</color>              <!-- 略亮于背景 -->
+    <color name="md_theme_dark_onSurface">#E6E1E6</color>
+    <color name="md_theme_dark_surfaceVariant">#2D2B2A</color>
+    <color name="md_theme_dark_onSurfaceVariant">#CAC4D0</color>
+    <color name="md_theme_dark_outline">#938F99</color>
+</resources>

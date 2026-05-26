@@ -1,0 +1,326 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ResourceName">
+    <string name="app_name">wuminpy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_transform">WuminPy</string>
+    <string name="menu_reflow">WuminPy</string>
+    <string name="menu_slideshow">WuminPy</string>
+    <string name="menu_settings">WuminPy</string>
+
+    <string name="lorem_ipsum_title">Lorem Ipsum"</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply placeholder text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry\'s standard placeholder text ever
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book"
+    </string>
+    <string name="fab_content_description">Represents a view to invoke an action</string>
+    <string name="image_view_item_transform_content_description">Represents an image view in the
+        item
+    </string>
+
+    <!-- 免责声明 -->
+    <string name="disclaimer_title">免责声明</string>
+    <string name="disclaimer_message">欢迎使用 WuminPy！在使用本应用之前，请仔细阅读以下免责声明：\n
+\n
+一、功能说明\n
+本应用是一个在 Android 设备上运行 Python 脚本的工具，部分功能仍处于开发阶段，可能会存在不完善或未预期的行为。\n
+\n
+二、数据与隐私\n
+本应用无后台服务器，所有数据处理均在您的设备本地完成，不会收集、上传或存储您的任何个人信息和文件数据。详细隐私政策请参见「隐私政策」页面。\n
+\n
+三、使用限制\n
+本应用提供的 Python 运行环境和自动化功能（包括但不限于悬浮窗、无障碍服务、远程连接等）仅供学习、研究和开发用途。使用者应遵守相关法律法规，严禁将本应用用于以下活动：\n
+• 任何违反中华人民共和国法律法规的行为\n
+• 侵害他人合法权益（包括但不限于隐私权、知识产权等）\n
+• 干扰或破坏其他应用、服务或系统的正常运行\n
+• 游戏外挂、刷量作弊、批量注册等违规操作\n
+• 未经授权访问他人设备、系统或网络\n
+• 传播违法、色情、暴力、赌博等不良信息\n
+• 任何可能危害网络安全和社会公共利益的活动\n
+\n
+四、权限风险告知\n
+使用本应用可能涉及系统级权限（如无障碍服务、悬浮窗、媒体投影等），授予这些权限可能带来安全风险。请仅在您信任的场景下授予权限，开发者不对因权限授权导致的任何问题承担责任。建议在不再需要使用相关功能时及时关闭对应权限。\n
+\n
+五、第三方平台风险\n
+本应用的自动化功能可能会被第三方平台或应用检测系统识别为违规行为。在使用自动化功能前，请务必了解目标平台的使用条款和规范。因使用本应用导致的账号封禁、数据丢失、服务终止或其他任何损失，开发者不承担任何责任。\n
+\n
+六、知识产权声明\n
+用户通过本应用编写的 Python 脚本、代码等成果的知识产权归用户所有。本应用自身的代码、图标、界面设计等知识产权归开发者所有。未经授权不得对本应用进行反向工程、篡改、破解等行为。\n
+\n
+七、免责范围\n
+本应用按"现状"提供，开发者不保证：\n
+• 本应用无缺陷、无错误或无中断运行\n
+• 本应用满足您的特定需求或预期\n
+• 本应用与其他软件或硬件的完全兼容性\n
+\n
+在适用法律允许的最大范围内，开发者不对因使用或无法使用本应用所造成的任何直接、间接、附带、特殊、惩罚性或结果性损失（包括但不限于数据丢失、业务中断、设备损坏、利润损失等）承担责任，即使开发者已被告知此类损失的可能性。\n
+\n
+八、儿童保护\n
+本应用不面向 13 周岁以下的儿童。如果您是儿童的监护人，请勿让儿童在无监护的情况下使用本应用的高级权限功能。\n
+\n
+九、条款变更\n
+开发者保留随时修改本免责声明的权利，修改后的条款将在应用内公布。继续使用本应用即表示您同意修改后的条款。\n
+\n
+十、适用法律\n
+本免责声明的订立、执行和解释适用中华人民共和国法律。如本声明的任何条款被认定为无效或不可执行，其余条款仍然有效。\n
+\n
+点击「同意」即表示您已阅读、理解并同意本免责声明的全部内容，并愿意自行承担使用本应用的所有风险。如果您不同意本声明的任何条款，请退出本应用。</string>
+    <string name="disclaimer_agree">同意</string>
+    <string name="disclaimer_disagree">不同意</string>
+
+    <!-- 开发者信息 -->
+    <string name="developer_info_title">开发者信息</string>
+    <string name="developer_info_content">开发者：WuminPy Team\n
+联系方式：\n
+• QQ：1352183717\n
+• 微信：liu1352183717\n
+• 邮箱：1352183717@qq.com\n
+项目简介：\n
+WuminPy 是一款在 Android 设备上运行 Python 脚本的工具应用，支持终端模拟、代码编辑、Git 集成、AI 辅助等功能。\n
+\n
+核心功能：\n
+• 完整 Python 3.14 运行环境\n
+• 终端模拟器（基于 merminal）\n
+• 代码编辑器（支持语法高亮和 LSP）\n
+• VS Code 远程连接与投屏\n
+• Git 版本控制\n
+• AI 智能助手\n
+• 悬浮窗快速操作\n
+• 无障碍自动化\n
+\n
+技术栈：\n
+• Android 原生开发（Java/Kotlin）\n
+• Python 3.14 嵌入式运行环境\n
+• Material Design 3 界面\n
+\n
+本应用持续更新中，欢迎提出建议和反馈。</string>
+
+    <!-- 开源声明 -->
+    <string name="opensource_title">开源声明</string>
+    <string name="opensource_content">WuminPy 部分代码已开源，遵循 MIT 许可证。\n
+\n
+开源地址：待补充\n
+\n
+开源范围说明：\n
+本应用的部分模块已开源，包括但不限于：\n
+• 终端模拟器（merminal）\n
+• 代码编辑器（codeeditor）\n
+• Python 运行时桥接（python）\n
+• 核心库（core）\n
+• AI 助手模块（ai）\n
+• Git 集成（git）\n
+• 无障碍自动化（auto）\n
+• VS Code 调试服务（debug）\n
+\n
+许可证（MIT License）：\n
+\n
+Copyright (c) 2024 WuminPy\n
+\n
+特此免费授予任何获得本软件及相关文档文件（以下简称"本软件"）副本的人不受限制地处理本软件的权利，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或出售本软件副本的权利，但须满足以下条件：\n
+\n
+上述版权声明和本许可声明应包含在本软件的所有副本或主要部分中。\n
+\n
+本软件按"原样"提供，不作任何明示或默示的保证，包括但不限于对适销性、特定用途的适用性和非侵权性的保证。在任何情况下，作者或版权持有人均不对任何索赔、损害赔偿或其他责任负责，无论是在合同诉讼、侵权行为或其他方面，产生于或源于本软件或本软件的使用或其他交易。\n
+\n
+第三方开源组件：\n
+本应用使用了以下开源项目，特此致谢：\n
+\n
+• AndroidX 系列 (Apache License 2.0)\n
+  — androidx.appcompat, androidx.core, androidx.recyclerview\n
+  — androidx.constraintlayout, androidx.lifecycle, androidx.navigation\n
+  — androidx.compose, androidx.swiperefreshlayout\n
+  — https://developer.android.com/jetpack/androidx\n
+\n
+• Material Components for Android (Apache License 2.0)\n
+  — com.google.android.material\n
+  — https://github.com/material-components/material-components-android\n
+\n
+• XXPermissions (Apache License 2.0)\n
+  — 作者：getActivity\n
+  — https://github.com/getActivity/XXPermissions\n
+\n
+• DeviceCompat (Apache License 2.0)\n
+  — 作者：getActivity\n
+  — https://github.com/getActivity/DeviceCompat\n
+\n
+• Apache Commons Compress (Apache License 2.0)\n
+  — org.apache.commons:commons-compress:1.26.0\n
+  — https://commons.apache.org/proper/commons-compress/\n
+\n
+• XZ for Java (Public Domain)\n
+  — org.tukaani:xz:1.9\n
+  — https://tukaani.org/xz/\n
+\n
+• Java-WebSocket (MIT License)\n
+  — org.java-websocket:Java-WebSocket:1.5.3\n
+  — https://github.com/TooTallNate/Java-WebSocket\n
+\n
+• Kotlin (Apache License 2.0)\n
+  — org.jetbrains.kotlin\n
+  — https://github.com/JetBrains/kotlin\n
+\n
+• JUnit (Eclipse Public License 1.0)\n
+  — junit:junit (测试框架)\n
+  — https://junit.org\n
+\n
+• Espresso (Apache License 2.0)\n
+  — androidx.test.espresso (UI 测试框架)\n
+  — https://developer.android.com/training/testing/espresso\n
+\n
+• DexMaker (Apache License 2.0)\n
+  — com.linkedin.dexmaker (测试辅助)\n
+  — https://github.com/linkedin/dexmaker\n
+\n
+完整许可证文本：\n
+Apache License 2.0: https://www.apache.org/licenses/LICENSE-2.0\n
+MIT License: https://opensource.org/licenses/MIT\n
+Eclipse Public License 1.0: https://www.eclipse.org/legal/epl-v10.html\n
+\n
+如果您发现本应用遗漏了某个开源组件的声明，请联系我们以便及时更正。</string>
+
+    <!-- 隐私政策 -->
+    <string name="privacy_title">隐私政策</string>
+    <string name="privacy_content">最后更新日期：2025年6月1日\n
+生效日期：2025年6月1日\n
+\n
+WuminPy（以下简称"本应用"或"我们"）尊重并保护所有使用者的隐私。本隐私政策旨在向您说明本应用如何处理您的数据。\n
+\n
+一、信息收集\n
+本应用无后台服务器，不会主动收集、上传或存储您的任何个人信息。具体说明如下：\n
+• 不收集个人身份信息（姓名、手机号、身份证号、邮箱等）\n
+• 不收集设备信息（IMEI、MAC 地址、设备序列号、Android ID 等）\n
+• 不收集位置信息（GPS、基站定位等）\n
+• 不收集通讯录、短信、通话记录\n
+• 不收集照片、视频、音频等媒体文件\n
+• 不收集应用使用统计数据或行为分析数据\n
+• 不包含任何第三方统计分析 SDK\n
+• 不包含任何广告 SDK\n
+\n
+二、数据存储\n
+所有数据均存储在您的设备本地：\n
+• Python 脚本和项目文件：存储在应用私有目录或您指定的存储路径\n
+• 应用配置信息：存储在 Android 系统 SharedPreferences 中\n
+• 终端配置和历史：存储在应用私有目录\n
+• 所有数据不会自动上传到任何服务器，也不会与第三方共享\n
+\n
+三、权限使用说明\n
+本应用申请的权限均仅用于实现特定功能，不会在后台未经授权使用：\n
+\n
+存储相关：\n
+• READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE：读取和保存 Python 脚本文件\n
+• MANAGE_EXTERNAL_STORAGE：在 Android 11+ 设备上管理外部存储文件\n
+\n
+系统交互：\n
+• SYSTEM_ALERT_WINDOW / SYSTEM_OVERLAY_WINDOW：实现悬浮操作面板\n
+• BIND_ACCESSIBILITY_SERVICE：实现无障碍自动化操作功能\n
+• REQUEST_IGNORE_BATTERY_OPTIMIZATIONS：保持后台运行的稳定性\n
+\n
+网络相关：\n
+• ACCESS_NETWORK_STATE：检测网络连接状态\n
+• INTERNET：仅用于 VS Code 远程连接的局域网通信\n
+• ACCESS_WIFI_STATE：检测 Wi-Fi 状态以显示本机 IP\n
+\n
+服务相关：\n
+• FOREGROUND_SERVICE / FOREGROUND_SERVICE_MEDIA_PROJECTION：实现屏幕共享功能\n
+• FOREGROUND_SERVICE_DATA_SYNC：保持数据传输服务\n
+• POST_NOTIFICATIONS：显示前台服务通知\n
+• WAKE_LOCK：防止设备在开发调试时休眠\n
+• USE_FULL_SCREEN_INTENT：全屏通知权限\n
+\n
+四、信息使用\n
+本应用处理数据的方式：\n
+• 您的 Python 脚本仅在本地设备上解释执行\n
+• VS Code 远程连接仅在您主动开启的局域网内通信\n
+• 屏幕共享仅在您明确授权后启动\n
+• 我们不会读取、分析或传输您的代码和数据\n
+\n
+五、第三方服务声明\n
+本应用：\n
+• 不使用任何第三方云服务或 CDN\n
+• 不接入任何广告平台\n
+• 不接入任何数据分析平台\n
+• 不接入任何推送服务\n
+• 不使用任何 Crash 上报服务（崩溃日志仅存储在本地）\n
+• AI 功能如涉及 API 调用，连接的是您自行配置的服务地址\n
+\n
+六、用户权利\n
+根据《中华人民共和国个人信息保护法》等相关法律法规，您享有以下权利：\n
+\n
+• 知情权：您有权知悉本应用处理您个人信息的情况。由于本应用不收集个人信息，您的知情权已得到充分保障。\n
+\n
+• 查阅权、复制权与转移权：由于所有数据均存储在您的设备本地，您可以直接通过文件管理器访问、复制、转移您的脚本和数据，无需通过我们来行使该权利。\n
+\n
+• 更正权：您可以在应用内直接编辑修改您的脚本文件，或通过系统设置修改应用配置。\n
+\n
+• 删除权：您可以通过以下方式删除数据：\n
+  1) 在应用内删除脚本文件和项目\n
+  2) 通过系统设置清除应用数据\n
+  3) 卸载本应用（将清除所有应用数据）\n
+\n
+• 撤回同意权：您可以通过系统设置随时关闭已授予的权限：\n
+  设置 → 应用 → WuminPy → 权限\n
+  设置 → 无障碍 → 已安装的服务 → WuminPy\n
+  设置 → 已安装的应用 → WuminPy → 在其他应用上层显示\n
+\n
+• 注销权：本应用不需要注册账号，不存在账号注销场景。如需停止使用，直接卸载即可。\n
+\n
+• 投诉权：如您认为本应用的数据处理方式侵犯了您的合法权益，您有权向相关监管部门投诉。\n
+\n
+七、儿童隐私保护\n
+本应用不面向 13 周岁以下的儿童。我们不会故意收集儿童的个人信息。如果您是儿童的监护人，请勿让儿童在无监护的情况下使用本应用的高级权限功能（如无障碍服务、悬浮窗等）。如果您发现我们无意中收集了儿童的个人信息，请联系我们以便及时删除。\n
+\n
+八、信息安全\n
+虽然本应用不联网传输数据，我们仍建议您：\n
+• 妥善保管设备，设置屏幕锁定密码\n
+• 谨慎授予系统级权限，仅在需要时开启\n
+• 定期备份重要的脚本和数据到安全位置\n
+• 不要在不信任的设备上安装和使用本应用\n
+• 开启设备加密功能以防数据被物理窃取\n
+\n
+九、数据泄露应对\n
+如发生设备丢失、被盗或其他可能导致数据泄露的情况，建议您：\n
+• 立即通过「查找设备」功能远程锁定或擦除设备\n
+• 修改相关账号的密码（如代码中硬编码的凭据）\n
+• 撤销可能已泄露的 API 密钥或 Token\n
+\n
+十、政策更新\n
+本隐私政策可能会不时更新。重大变更时，我们将在应用内以弹窗或通知的方式提示您。更新后的政策将在应用内公布，并于公布之日生效。建议您定期查阅本隐私政策以了解最新版本。\n
+\n
+十一、联系我们\n
+如果您对本隐私政策或数据处理有任何疑问、建议或投诉，请通过以下方式联系我们：\n
+• QQ：1352183717\n
+• 微信：liu1352183717\n
+• 邮箱：1352183717@qq.com\n
+• 我们将在收到您的请求后的合理时间内予以回复</string>
+
+    <!-- 赞助支持 -->
+    <string name="sponsor_title">赞助支持</string>
+    <string name="sponsor_content">感谢您使用 WuminPy！\n
+\n
+WuminPy 是一款个人开发的免费工具，如果您觉得这个应用对您有帮助，欢迎通过以下方式支持开发者的工作：\n
+\n
+赞赏码：\n
+（将在后续版本中添加）\n
+\n
+您的支持将帮助：\n
+• 持续维护和更新应用功能\n
+• 修复 Bug 和提升稳定性\n
+• 开发新的实用功能\n
+• 提供更完善的文档和教程\n
+\n
+赞助方式：\n
+• 微信赞赏（即将支持）\n
+• 支付宝赞赏（即将支持）\n
+\n
+无论是否赞助，WuminPy 的核心功能都将保持免费使用。感谢每一位用户的支持和鼓励！\n
+\n
+如有其他合作或支持意向，请联系：\n
+• QQ：1352183717\n
+• 微信：liu1352183717\n
+• 邮箱：1352183717@qq.com</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    tools:ignore="ResourceName">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_transform"
+            android:icon="@drawable/nav_home"
+            android:title="首页" />
+        <item
+            android:id="@+id/nav_reflow"
+            android:icon="@drawable/nav_warehouse"
+            android:title="PY库" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/nav_example"
+            android:title="例子" />
+
+        <item
+            android:id="@+id/nav_plugin"
+            android:icon="@drawable/nav_plugin"
+            android:title="插件" />
+        <item
+            android:id="@+id/nav_script"
+            android:icon="@drawable/nav_script"
+            android:title="引擎" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_settings"-->
+<!--            android:icon="@drawable/ic_slideshow_black_24dp"-->
+<!--            android:title="设置" />-->
+    </group>
+</menu>

@@ -1,0 +1,44 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+build/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# AAR 文件（闭源，不提交到公开仓库）
+libs/*.aar
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Env
+.env
+*.log
+build.log

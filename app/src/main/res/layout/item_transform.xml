@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    tools:ignore="ResourceName">
+
+    <ImageView
+        android:id="@+id/image_view_item_transform"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:tint="?attr/colorOnSurface"
+        tools:ignore="ContentDescription"
+        tools:src="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_item_transform_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="文件名.txt" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_item_transform_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                tools:text="1.2 MB" />
+
+            <TextView
+                android:id="@+id/text_view_item_transform_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                tools:text="2023-01-01 12:00" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 右侧图标容器 -->
+    <LinearLayout
+        android:id="@+id/layout_item_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_item_run"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:tint="?attr/colorOnSurface"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="运行"
+            android:src="@drawable/ic_play"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/button_item_settings"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:tint="?attr/colorOnSurface"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="更多"
+            android:src="@drawable/ic_more"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

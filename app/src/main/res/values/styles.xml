@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 圆形图片 -->
+    <style name="circleImageStyle" parent="Theme.Material3.Dark.NoActionBar" tools:ignore="ResourceName">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

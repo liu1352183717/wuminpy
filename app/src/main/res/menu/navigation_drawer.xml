@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ResourceName">
+
+    <!-- 第一组：权限服务 -->
+    <item
+        android:id="@+id/nav_permission_parent"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="权限服务" />
+    <group
+        android:id="@+id/group_permission"
+        android:checkableBehavior="single"
+        android:visible="false">
+        <item
+            android:id="@+id/nav_permission_overlay"
+            android:icon="@drawable/ic_dark_mode"
+            android:title="悬浮窗权限" />
+        <item
+            android:id="@+id/nav_permission_storage"
+            android:icon="@drawable/ic_dark_mode"
+            android:title="存储权限" />
+        <item
+            android:id="@+id/nav_permission_foreground"
+            android:icon="@drawable/ic_dark_mode"
+            android:title="前台权限" />
+        <item
+            android:id="@+id/nav_permission_accessi"
+            android:icon="@drawable/ic_dark_mode"
+            android:title="无障碍权限" />
+        <item
+            android:id="@+id/nav_battery_optimizations"
+            android:icon="@drawable/ic_dark_mode"
+            android:title="忽略电池优化" />
+        <item
+            android:id="@+id/nav_backfore_permiss"
+            android:icon="@drawable/ic_dark_mode"
+            android:title="后台弹出权限" />
+    </group>
+
+    <!-- 第二组：主题设置 -->
+    <item
+        android:id="@+id/nav_theme_parent"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="主题设置" />
+    <group
+        android:id="@+id/group_theme"
+        android:checkableBehavior="single"
+        android:visible="false">
+        <item
+            android:id="@+id/nav_theme_follow_system"
+            android:icon="@drawable/ic_dark_mode"
+            android:title="跟随系统" />
+        <item
+            android:id="@+id/nav_theme_night"
+            android:icon="@drawable/ic_dark_mode"
+            android:title="夜间模式" />
+    </group>
+
+    <item
+        android:id="@+id/nav_developer_parent"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="开发者调试" />
+
+    <group
+        android:id="@+id/group_developer"
+        android:visible="false">
+        <item
+            android:id="@+id/nav_dev_remote"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="无线连接 (LAN)" />
+        <item
+            android:id="@+id/nav_dev_usb"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="电脑连接 (ADB)" />
+        <item
+            android:id="@+id/nav_dev_wakelock"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="保持屏幕常亮" />
+        <item
+            android:id="@+id/nav_dev_tutorial"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="连接教程" />
+    </group>
+
+    <!-- 其他独立菜单项（不可折叠） -->
+    <item
+        android:id="@+id/nav_floting"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="悬浮窗" />
+    <item
+        android:id="@+id/nav_notifi"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="前台通知" />
+    <item
+        android:id="@+id/nav_ndk_install"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="ndk安装" />
+    <item
+        android:id="@+id/nav_git_config"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="git配置" />
+
+    <item
+        android:id="@+id/nav_ai_config"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="AI配置" />
+    <item
+        android:id="@+id/nav_ai_chat"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="AI聊天" />
+    <item
+        android:id="@+id/nav_lsp_config"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="LSP配置" />
+    <item
+        android:id="@+id/nav_more_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="更多设置" />
+    <item
+        android:id="@+id/nav_check_update"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="检查更新" />
+    <item
+        android:id="@+id/nav_opensource"
+        android:icon="@drawable/ic_opensource_dark"
+        android:title="开源声明" />
+    <item
+        android:id="@+id/nav_privacy"
+        android:icon="@drawable/ic_privacy_dark"
+        android:title="隐私政策" />
+    <item
+        android:id="@+id/nav_sponsor"
+        android:icon="@drawable/ic_sponsor_dark"
+        android:title="赞助支持" />
+
+    <item
+        android:id="@+id/nav_exit"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="退出程序" />
+
+</menu>

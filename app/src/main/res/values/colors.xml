@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ResourceName">
+    <!-- 基础颜色（保持简洁） -->
+    <color name="purple_200">#EADDFF</color>     <!-- 保留原值供其他使用 -->
+    <color name="purple_500">#FF6200EE</color>   <!-- 保留 -->
+    <color name="purple_700">#FF3700B3</color>   <!-- 保留 -->
+    <color name="teal_200">#FF03DAC5</color>     <!-- 保留 -->
+    <color name="teal_700">#FF018786</color>     <!-- 保留 -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="selected_item_bg">#4D2196F3</color>
+    <color name="folder_icon_color">#9B8AB0</color>  <!-- 柔和紫 -->
+    <color name="file_icon_color">#9E9AA8</color>    <!-- 柔和灰 -->
+
+    <!-- Material 3 柔和主题 -->
+    <color name="seed">#8B7BA0</color>
+    <color name="md_theme_light_primary">#8B7BA0</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#F0EAF5</color>
+    <color name="md_theme_light_onPrimaryContainer">#2C1E3F</color>
+    <color name="md_theme_light_secondary">#9A8FAA</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#F2EDF8</color>
+    <color name="md_theme_light_onSecondaryContainer">#2C1F3F</color>
+    <color name="md_theme_light_tertiary">#6C8C6F</color>           <!-- 柔和绿 -->
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#DCF5DC</color>
+    <color name="md_theme_light_onTertiaryContainer">#1F3A22</color>
+    <color name="md_theme_light_error">#BA6B6B</color>              <!-- 柔和红 -->
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_errorContainer">#FFDAD6</color>
+    <color name="md_theme_light_onErrorContainer">#3F2A2A</color>
+    <color name="md_theme_light_background">#FEFCF8</color>         <!-- 米白背景 -->
+    <color name="md_theme_light_onBackground">#1E1C1A</color>       <!-- 深暖灰文字 -->
+    <color name="md_theme_light_surface">#FEFCF8</color>
+    <color name="md_theme_light_onSurface">#1E1C1A</color>
+    <color name="md_theme_light_surfaceVariant">#EDE7F0</color>
+    <color name="md_theme_light_onSurfaceVariant">#49454F</color>
+    <color name="md_theme_light_outline">#7C7A80</color>
+</resources>
