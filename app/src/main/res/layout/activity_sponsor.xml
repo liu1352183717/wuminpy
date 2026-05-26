@@ -141,6 +141,7 @@
                 android:layout_marginBottom="16dp" />
 
             <TextView
+                android:id="@+id/tv_contact"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="联系方式\n\nQQ：1352183717\n微信：liu1352183717\n邮箱：1352183717@qq.com"

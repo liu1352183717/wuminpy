@@ -8,7 +8,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
-import android.widget.ImageView;
+import android.text.method.LinkMovementMethod;
+import android.text.util.Linkify;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,8 +19,12 @@ import com.wumin.wuminpy.databinding.ActivitySponsorBinding;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class SponsorActivity extends AppCompatActivity {
+
+    private static final Pattern QQ_PATTERN = Pattern.compile("QQ[：:]\\s*(\\d{5,12})");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +44,15 @@ public class SponsorActivity extends AppCompatActivity {
         binding.ivAlipayQr.setOnLongClickListener(v -> {
             saveImageToGallery(R.drawable.sponsor_alipay, "wuminpy_alipay_qr.jpg", "支付宝赞赏码");
             return true;
+        });
+
+        binding.tvContact.setMovementMethod(LinkMovementMethod.getInstance());
+        Linkify.addLinks(binding.tvContact, QQ_PATTERN, null, null, (match, url) -> {
+            Matcher m = QQ_PATTERN.matcher(match.toString());
+            if (m.find()) {
+                return "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=" + m.group(1);
+            }
+            return url;
         });
     }
 
@@ -72,7 +86,6 @@ public class SponsorActivity extends AppCompatActivity {
                 try (FileOutputStream out = new FileOutputStream(file)) {
                     bitmap.compress(Bitmap.CompressFormat.JPEG, 95, out);
                 }
-                // 通知相册刷新
                 MediaStore.Images.Media.insertImage(getContentResolver(), file.getAbsolutePath(), fileName, null);
                 Toast.makeText(this, label + " 已保存到 " + file.getAbsolutePath(), Toast.LENGTH_LONG).show();
             }
